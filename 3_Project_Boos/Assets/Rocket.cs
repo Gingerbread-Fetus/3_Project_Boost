@@ -53,7 +53,6 @@ public class Rocket : MonoBehaviour
         }
         else
         {
-            Debug.Log("stopping sound");
             myAudioSource.Stop();
         }
     }
